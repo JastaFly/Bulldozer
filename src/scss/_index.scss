@@ -1,0 +1,158 @@
+main {
+  margin-bottom: 0%;
+}
+.form {
+  border: 3px solid #F1C037;
+  border-radius: 20px;
+  padding-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 85px;
+  &__title {
+    font-family: GothamPro-Bold;
+    font-size: 32px;
+    color: #404040;
+    text-align: center;
+    line-height: 48px;
+    margin-bottom: 10%;
+    &:hover {
+      color: #404040;
+    }
+  }
+  form > input[type=text] {
+    width: 100%;
+    font-family: GothamPro;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 30px;
+    border: solid 1px #707070;
+    margin-bottom: 25px;
+    color: #404040;
+    &:focus {
+      border: solid 1px #F1C037;
+    }
+  }
+}
+form > input[type=button] {
+  width: 100%;
+  background-color: #EE3A08;
+  font-family: GothamPro-Medium;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: none;
+  border-radius: 30px;
+  border: solid 1px #EE3A08;
+  transition: 0.4s;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #EE3A08;
+  }
+}
+.bulldozer {
+  margin-top: 85px;
+}
+.bulldozer__img {
+  margin-top: 10%;
+}
+.excavator {
+  margin-top: -3%;
+  flex-basis: 31%;
+}
+.block-span {
+  display: block;
+  font-family: GothamPro-Bold;
+  font-size: 32px;
+  color: #404040;
+}
+@media screen and (max-width: 1536px){
+  .block-span {
+    display: inline;
+  }
+}
+@media screen and (max-width: 1536px){
+  .block-span {
+    display: inline;
+  }
+}
+@media screen and (max-width: 1536px){
+  .form {
+    margin-top: 1%;
+  }
+  form > input[type=button] {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1366px){
+  .form__title {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .block-span {
+    font-size: 26px;
+  }
+  .icon__img {
+    margin-bottom: 5%;
+  }
+  main {
+    margin-bottom: 1%;
+  }
+}
+@media screen and (max-width: 1200px){
+  body {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .block-span {
+    display: block;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .block-span {
+    display: inline;
+  }
+  body {
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+}
+@media screen and (max-width: 1125px) {
+  body {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+}
+@media screen and (max-width: 823px) {
+  .form-desk {
+    display: none;
+  }
+  .excavator {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-height: 1366px) and (max-width: 1024px) {
+  main {
+    padding-top: 30%;
+  }
+}
+
+@media screen and (max-height: 1024px) and (max-width: 1366px) {
+  main {
+    padding-top: 10%;
+  }
+}
+@media screen and (max-height: 768px) and (max-width: 1366px) {
+  main {
+    padding-top: 0;
+  }
+}
+@media screen and (max-height: 800px) and (max-width: 1280px) {
+  main {
+    padding-top: 1%;
+  }
+}
